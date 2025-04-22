@@ -1,15 +1,97 @@
+:root{
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
 #page{
   width: 1120px;
-  height: 3078px;
-  
+  height: 3400px;
+  margin: auto;
+}
+
+#cabeçalho h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#cabeçalho p{
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #introdution img {
   width: 1120px;
   height: 660px;
+  margin-top: 40px;
 }
 
-#list img{
-  width: 1120px;
-  height: 350px;
+#introdution p{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#titlelist{
+  margin: 64px auto;
+}
+
+#titlelist h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#titlelist p{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#list{
+  margin: 64px auto;
+}
+
+#list ol, ul{
+  padding-left: 0px;
+}
+
+#list ol > li{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+#list h4{
+  margin-bottom: 0px;
+  margin-left: -40px;
+}
+
+
+
+#list ul > li, h4{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#list ul{
+  list-style-type: disc;
+}
+
+#list h3{
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+#list p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: -40px;
+}
+
+.ajusteimg{
+  margin-top: 48px;
 }
