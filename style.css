@@ -7,16 +7,21 @@
   width: 1120px;
   height: 3400px;
   margin: auto;
+  margin-top: 65px;
+  border: 1px solid black;
+}
+
+.headline{
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E1624F;
 }
 
 #cabeçalho h1{
   font-size: 36px;
   font-weight: bold;
-}
-
-#cabeçalho p{
-  font-size: 16px;
-  font-weight: bold;
+  margin-top: 0px;
 }
 
 #introdution img {
@@ -38,13 +43,8 @@
 }
 
 #titlelist h2{
+  margin-top: 0px;
   font-size: 32px;
-  font-weight: bold;
-}
-
-#titlelist p{
-  font-size: 16px;
-  font-weight: normal;
 }
 
 #list{
@@ -65,8 +65,6 @@
   margin-bottom: 0px;
   margin-left: -40px;
 }
-
-
 
 #list ul > li, h4{
   font-size: 16px;
