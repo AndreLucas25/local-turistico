@@ -8,7 +8,7 @@
   height: 3400px;
   margin: auto;
   margin-top: 65px;
-  border: 1px solid black;
+  
 }
 
 .headline{
@@ -22,11 +22,17 @@
   font-size: 36px;
   font-weight: bold;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 #introdution img {
-  width: 1120px;
-  height: 660px;
   margin-top: 40px;
 }
 
@@ -34,8 +40,15 @@
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
-  margin-bottom: 40px;
+  margin-top: 24px;
   text-align: center;
+}
+
+hr{
+  color: #D9D9D9;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #titlelist{
@@ -92,4 +105,35 @@
 
 .ajusteimg{
   margin-top: 48px;
+}
+
+.purple{
+  color: #591B98;
+}
+
+#pink{
+  color: #E5245E;
+}
+
+#orange{
+  color: #E95E10;
+}
+
+ul li::marker{
+  color: black;
+}
+
+aside{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer img{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
 }
